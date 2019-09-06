@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4AE3809623225A4200ECF19A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE3809523225A4200ECF19A /* AppDelegate.swift */; };
-		4AE3809823225A4200ECF19A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4AE3809723225A4200ECF19A /* GameScene.sks */; };
-		4AE3809A23225A4200ECF19A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4AE3809923225A4200ECF19A /* Actions.sks */; };
-		4AE3809C23225A4200ECF19A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE3809B23225A4200ECF19A /* GameScene.swift */; };
 		4AE3809E23225A4200ECF19A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE3809D23225A4200ECF19A /* GameViewController.swift */; };
 		4AE380A123225A4200ECF19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE3809F23225A4200ECF19A /* Main.storyboard */; };
 		4AE380A323225A4300ECF19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE380A223225A4300ECF19A /* Assets.xcassets */; };
@@ -65,9 +62,6 @@
 /* Begin PBXFileReference section */
 		4AE3809223225A4200ECF19A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE3809523225A4200ECF19A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AE3809723225A4200ECF19A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4AE3809923225A4200ECF19A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		4AE3809B23225A4200ECF19A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4AE3809D23225A4200ECF19A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4AE380A023225A4200ECF19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AE380A223225A4300ECF19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -198,9 +192,6 @@
 				4AE3842C232263A600ECF19A /* spine-spritekit */,
 				4AE3809523225A4200ECF19A /* AppDelegate.swift */,
 				4AE38DAA2322666E00ECF19A /* BridgingHeader.h */,
-				4AE3809723225A4200ECF19A /* GameScene.sks */,
-				4AE3809923225A4200ECF19A /* Actions.sks */,
-				4AE3809B23225A4200ECF19A /* GameScene.swift */,
 				4AE3809D23225A4200ECF19A /* GameViewController.swift */,
 				4AE3809F23225A4200ECF19A /* Main.storyboard */,
 				4AE380A223225A4300ECF19A /* Assets.xcassets */,
@@ -428,12 +419,10 @@
 				4AE38DB723226ED600ECF19A /* goblins.atlas in Resources */,
 				4AE380A123225A4200ECF19A /* Main.storyboard in Resources */,
 				4AE38DB523226ED600ECF19A /* spineboy.json in Resources */,
-				4AE3809823225A4200ECF19A /* GameScene.sks in Resources */,
 				4AE38DB423226ED600ECF19A /* goblins.json in Resources */,
 				4AE38DB923226ED600ECF19A /* goblins.png in Resources */,
 				4AE380A323225A4300ECF19A /* Assets.xcassets in Resources */,
 				4AE380A623225A4300ECF19A /* LaunchScreen.storyboard in Resources */,
-				4AE3809A23225A4200ECF19A /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +440,6 @@
 				4AE38D982322645D00ECF19A /* AtlasAttachmentLoader.c in Sources */,
 				4AE386FC232263A700ECF19A /* DZSpineLoader.m in Sources */,
 				4AE38DA22322645D00ECF19A /* SkeletonJson.c in Sources */,
-				4AE3809C23225A4200ECF19A /* GameScene.swift in Sources */,
 				4AE3809E23225A4200ECF19A /* GameViewController.swift in Sources */,
 				4AE38701232263A700ECF19A /* DZSpineSpriteKitMaps.m in Sources */,
 				4AE38D972322645D00ECF19A /* AnimationState.c in Sources */,
