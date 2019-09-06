@@ -28,7 +28,7 @@ class GameViewController: UIViewController {
     func buildSpineboyLoop(size: CGSize) -> SKScene {
         let scene = SKScene(size: size)
         scene.scaleMode = .aspectFill
-        scene.backgroundColor = .white
+        scene.backgroundColor = .lightGray
         
         let skeleton = DZSpineSceneBuilder.loadSkeletonName("spineboy", scale: 1)!
         let builder = DZSpineSceneBuilder.builder() as! DZSpineSceneBuilder
@@ -44,7 +44,7 @@ class GameViewController: UIViewController {
     func buildGoblin(size: CGSize) -> SKScene {
         let scene = SKScene(size: size)
         scene.scaleMode = .aspectFill
-        scene.backgroundColor = .white
+        scene.backgroundColor = .lightGray
 
         let skeleton = DZSpineSceneBuilder.loadSkeletonName("goblins", scale: 1)!
         
