@@ -54,7 +54,6 @@
 		4AE38DA32322645D00ECF19A /* AnimationStateData.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AE38D7F2322645D00ECF19A /* AnimationStateData.c */; };
 		4AE38DA42322645D00ECF19A /* Attachment.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AE38D802322645D00ECF19A /* Attachment.c */; };
 		4AE38DA52322645D00ECF19A /* RegionAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AE38D812322645D00ECF19A /* RegionAttachment.c */; };
-		4AE38DAC23226DAB00ECF19A /* SpineScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE38DAB23226DAB00ECF19A /* SpineScene.swift */; };
 		4AE38DB423226ED600ECF19A /* goblins.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AE38DAE23226ED500ECF19A /* goblins.json */; };
 		4AE38DB523226ED600ECF19A /* spineboy.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AE38DAF23226ED500ECF19A /* spineboy.json */; };
 		4AE38DB623226ED600ECF19A /* spineboy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AE38DB023226ED500ECF19A /* spineboy.png */; };
@@ -155,7 +154,6 @@
 		4AE38D812322645D00ECF19A /* RegionAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RegionAttachment.c; sourceTree = "<group>"; };
 		4AE38DA82322653A00ECF19A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4AE38DAA2322666E00ECF19A /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
-		4AE38DAB23226DAB00ECF19A /* SpineScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpineScene.swift; sourceTree = "<group>"; };
 		4AE38DAE23226ED500ECF19A /* goblins.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = goblins.json; sourceTree = "<group>"; };
 		4AE38DAF23226ED500ECF19A /* spineboy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spineboy.json; sourceTree = "<group>"; };
 		4AE38DB023226ED500ECF19A /* spineboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spineboy.png; sourceTree = "<group>"; };
@@ -203,7 +201,6 @@
 				4AE3809723225A4200ECF19A /* GameScene.sks */,
 				4AE3809923225A4200ECF19A /* Actions.sks */,
 				4AE3809B23225A4200ECF19A /* GameScene.swift */,
-				4AE38DAB23226DAB00ECF19A /* SpineScene.swift */,
 				4AE3809D23225A4200ECF19A /* GameViewController.swift */,
 				4AE3809F23225A4200ECF19A /* Main.storyboard */,
 				4AE380A223225A4300ECF19A /* Assets.xcassets */,
@@ -482,7 +479,6 @@
 				4AE386FF232263A700ECF19A /* spine_adapt.m in Sources */,
 				4AE38705232263A700ECF19A /* DZSpineSpriteKitAnimation.m in Sources */,
 				4AE38D952322645D00ECF19A /* SkeletonData.c in Sources */,
-				4AE38DAC23226DAB00ECF19A /* SpineScene.swift in Sources */,
 				4AE3809623225A4200ECF19A /* AppDelegate.swift in Sources */,
 				4AE386FD232263A700ECF19A /* SpineAttachment.m in Sources */,
 				4AE38708232263A700ECF19A /* SpineSequence.m in Sources */,
