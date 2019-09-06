@@ -16,20 +16,28 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
-            
+            view.presentScene(buildSpineboyLoop(size: view.bounds.size))
             view.ignoresSiblingOrder = true
-            
             view.showsFPS = true
             view.showsNodeCount = true
         }
+    }
+    
+    func buildSpineboyLoop(size: CGSize) -> SKScene {
+        let scene = SKScene(size: size)
+        scene.scaleMode = .aspectFill
+        scene.backgroundColor = .white
+        
+        let skeleton = DZSpineSceneBuilder.loadSkeletonName("spineboy", scale: 1)!
+        let builder = DZSpineSceneBuilder.builder() as! DZSpineSceneBuilder
+        let node = builder.node(with: skeleton, animationNames: ["walk", "jump", "walk"], loop: true)!
+        spSkeleton_setSkinByName(skeleton.spineContext.pointee.skeleton, "default")
+
+        let placeholder = SKNode()
+        placeholder.position = CGPoint(x: size.width / 2, y: size.height / 3)
+        placeholder.addChild(node)
+        scene.addChild(placeholder)
+        return scene
     }
 
     override var shouldAutorotate: Bool {
